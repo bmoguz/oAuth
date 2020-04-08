@@ -20,4 +20,10 @@ public class HomeController {
 		return ResponseEntity.ok(str);
 	}
 
+	@RequestMapping("/login2")
+	public ResponseEntity<?>login2(){
+		String str="Login page";
+		return ResponseEntity.ok(str);
+	}
+
 }
